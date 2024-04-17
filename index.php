@@ -1,15 +1,12 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pagina Prueba 1</title>
-    
+<?php
+class Answer
+/** 
+*Esto es un comentario de varias
+*lineas en PHP
+*Se sugiere usar * para separar lineas
+*/
+{
+    protected $clients = []; //Esto es un comentario de una linea
+    protected $insurers = [];#Esto es otro comentario de una linea
 
-</head>
-<body>
-    <h1>Esto es una Prueba de Pagina Web </h1>
-    <p>Lorem Ipsum dolorem, ser Lorem Ipsum</p>
-    
-</body>
-</html>
+}
