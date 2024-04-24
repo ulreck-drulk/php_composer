@@ -1,12 +1,7 @@
 <?php
-class Answer
-/** 
-*Esto es un comentario de varias
-*lineas en PHP
-*Se sugiere usar * para separar lineas
-*/
-{
-    protected $clients = []; //Esto es un comentario de una linea
-    protected $insurers = [];#Esto es otro comentario de una linea
-
-}
+require __DIR__. '/vendor/autoload.php';
+$texto = readline("Escribe tu nombre en minusculas: ");
+//echo Text\format::upperText($texto)."\n"; Esto lo hace ahora composer
+echo upper($texto);
+//Se llama la funcion que esta disponible en los helpers creados
+echo lower($texto);
